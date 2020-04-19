@@ -34,6 +34,12 @@ const TopBar = () => {
                 &nbsp; New Post
               </NavLink>
             </li>
+            <li className={"nav-item"}>
+              <NavLink to="/settings" className="nav-link">
+                <i className="ion-compose"></i>
+                &nbsp; Settings
+              </NavLink>
+            </li>
             <li className="nav-item">
               <NavLink
                 to={`/profiles/${currentUserState.currentUser.username}`}
